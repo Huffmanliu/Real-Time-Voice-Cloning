@@ -14,7 +14,7 @@ from utils.argutils import print_args
 from utils.default_models import ensure_default_models
 from vocoder import inference as vocoder
 
-
+# main function
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(
         formatter_class=argparse.ArgumentDefaultsHelpFormatter
